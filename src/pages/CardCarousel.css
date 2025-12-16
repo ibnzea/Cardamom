@@ -1,0 +1,39 @@
+/* CardCarousel.css */
+
+.rotating-wrapper {
+    /* Apply the combined rotation and scaling animation */
+    animation: groupSpinAndBreathe 10s linear infinite;
+    transform-style: preserve-3d; 
+}
+
+/* The Combined Group Keyframe Animation */
+@keyframes groupSpinAndBreathe {
+    /* Front of the cycle (Large/Out) */
+    0% {
+        transform: 
+            rotateZ(0deg) /* Full rotation */
+            scale(1.1); /* Pushed out */
+    }
+    
+    /* Back of the cycle (Small/In) */
+    50% {
+        transform: 
+            rotateZ(180deg) /* Half rotation */
+            scale(0.9); /* Pulled in */
+    }
+
+    /* Back to the front of the cycle (Large/Out) */
+    100% {
+        transform: 
+            rotateZ(360deg) 
+            scale(1.1);
+    }
+}
+
+/* IMPORTANT: The individual cards must NOT have any animation applied anymore */
+/* We still need this class, but it defines only the static, scattered position now */
+/* The animation is entirely on the parent wrapper */
+.card-item {
+    transform-style: preserve-3d;
+    backface-visibility: hidden; 
+}

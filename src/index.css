@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* ./src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* For Webkit browsers (Chrome, Safari, Edge) */
+html::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* For Internet Explorer and Edge */
+html {
+  -ms-overflow-style: none;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s infinite;
+}
+
+/* Style for the custom selects */
+.select-style {
+  -webkit-appearance: none;  /* Remove default select box styling in webkit browsers */
+  -moz-appearance: none;     /* Remove default select box styling in Firefox */
+  appearance: none;          /* Remove default select box styling in other browsers */
+  background-color: transparent;
+  padding-right: 30px;       /* Space for chevron icon */
+}
+
+select:hover {
+  background-color: #f8f1e4; /* Lighter background color on hover for the select */
+}
+
+/* Optional: Apply custom styles to the options on hover */
+select option:hover {
+  background-color: #d8c9b3; /* Background color when hovering over options */
 }
