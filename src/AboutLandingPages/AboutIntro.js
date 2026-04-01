@@ -59,7 +59,7 @@ function AboutIntro() {
       <div className='flex mt-[630px] mr-6'>
         <div className='ml-auto mr-4'>
             <p>
-                Founded in 1996 in the heart of Ocala, Florida, Amrit Palace began as <br />
+                Founded in 1996 in the heart of Ocala, Florida, Cardamom began as <br />
                 a humble dream — to bring the vibrant flavors, warmth, and traditions <br />
                 of Indian culture to American tables. What started as a family-run <br />
                 restaurant quickly became a local landmark, cherished by generations <br />
@@ -98,7 +98,7 @@ function AboutIntro() {
             Laurhyn Akal
           </p>
           <p>
-            Founder of Amrit Palace
+            Founder of Cardamom
           </p>
         </div>
         <div className='w-[950px] h-[900px]'>

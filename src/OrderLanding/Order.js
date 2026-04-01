@@ -884,7 +884,7 @@ function Order() {
       {/* TOP HEADER SECTION */}
       <div className="flex gap-[600px] justify-center items-center mt-24">
         <div className="mt-20">
-          <h1 className="font-playfair text-3xl">Amrit Palace Ocala, FL</h1>
+          <h1 className="font-playfair text-3xl">Cardamom Ocala, FL</h1>
           <p className="mt-3">3415 SW College Rd, Ocala, FL</p>
         </div>
         <div>

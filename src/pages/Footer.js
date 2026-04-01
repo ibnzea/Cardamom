@@ -50,7 +50,7 @@ function Footer() {
         <div className='flex justify-between p-9'>
             <div className='flex justify-center items  border-t border-b border-amber-100/30 text-[#E9DDCC] mt-7 w-[600px] h-[320px]'>
                 <div className='flex flex-col justify-between  border-r border-amber-100/30 p-4'> 
-                    <h1 className='mr-28'>AMRIT PALACE</h1>
+                    <h1 className='mr-28'>Cardamom</h1>
                     <div className='mt-24 duration-200 hover:hover:text-amber-400/70'>
                         <p>3415 SW College Rd<br />
                             Ocala, FL 34474</p>
@@ -119,11 +119,11 @@ function Footer() {
         </div>
 
         <div>
-         <TypingAnimation text="AMRIT PALACE" speed={150} />
+         <TypingAnimation text="Cardamom" speed={150} />
          </div>
 
          <div className="flex justify-between p-3 text-[#E9DDCC]">
-            <p>&copy; 2025 AMrit Palace</p>
+            <p>&copy; 2025 Cardamom</p>
             <p>All Rights Reserved</p>
             <p>Made by <a className="underline" href="https://my-portfolio-two-nu-58.vercel.app/">Oliver Ekeno</a></p>
          </div>

@@ -53,7 +53,7 @@ function Home() {
         
         <div className='absolute left-6 bottom-4 text-white'>
           <p className='text-[#E9DDCC]'>
-            At Amrit Palace, every dish is a tribute to tradition and <br />every moment is crafted for today.
+            At Cardamom, every dish is a tribute to tradition and <br />every moment is crafted for today.
              We bring together <br />the warmth of Indian hospitality, the richness of timeless <br />flavors, and the pace of modern life.
           </p>
         </div>

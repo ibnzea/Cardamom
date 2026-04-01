@@ -77,7 +77,7 @@ function Services() {
           <p className="text-gray-800 text-[17px] leading-relaxed font-bold">
             Whether you're hosting a wedding, corporate gathering, or private celebration,<br />
             our catering brings the warmth of Indian hospitality straight to your table. From<br />
-            full-service spreads to curated menus, Amrit Palace delivers flavor, style, and care<br />
+            full-service spreads to curated menus, Cardamom delivers flavor, style, and care<br />
             — wherever the occasion takes you.
           </p>
         </div>

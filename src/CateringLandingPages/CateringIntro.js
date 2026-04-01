@@ -50,7 +50,7 @@ function CateringIntro() {
       <div className='m-8'>
           <h1 className='font-playfair text-7xl m-3 leading-normal'>
             <TypingAnimation 
-              text="At Amrit Palace, we specialize in creating"
+              text="At Cardamom, we specialize in creating"
               speed={40}
             />
             <br />

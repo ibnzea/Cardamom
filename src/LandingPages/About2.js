@@ -67,7 +67,7 @@ function About2() {
 
         <div className='absolute left-4 bottom-4 text-white'>
           <p className='text-[#E9DDCC]'>
-           Since 1996, Amrit Palace has been more than a destination for <br />
+           Since 1996, Cardamom has been more than a destination for <br />
            Indian cuisine. It has been a space for celebration, connection, and <br />
            tradition reimagined. Each visit is a quiet ritual; the warmth of spice, <br />
            the hum of conversation, the comfort of something familiar yet <br />

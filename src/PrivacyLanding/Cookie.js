@@ -68,7 +68,7 @@ function Cookie() {
         {/* RIGHT SIDE – content */}
         <div className='w-full'>
           <h1 className='font-playfair text-4xl'>
-            This Cookie Policy explains how Amrit Palace ("Company", "we", "our", or "us") uses cookies and similar technologies when you visit https://amritpalace.com (the "Site").
+            This Cookie Policy explains how Cardamom ("Company", "we", "our", or "us") uses cookies and similar technologies when you visit https://amritpalace.com (the "Site").
           </h1>
 
           {/* First Section */}

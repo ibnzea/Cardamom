@@ -122,7 +122,7 @@ function Menu() {
             />
             <br />
             <TypingAnimation 
-              text="Amrit Palace, every dish is a reflection of"
+              text="Cardamom, every dish is a reflection of"
               speed={40}
             />
             <br />

@@ -74,7 +74,7 @@ function Terms() {
         {/* RIGHT SIDE – content */}
         <div className='w-full'>
           <h1 className='font-playfair text-4xl'>
-            Welcome to amritpalace.com (the "Site"), operated by Amrit Palace ("Company", "we", "our", or "us"). By accessing or using this Site, placing an order, or visiting our restaurant, you agree to these Terms and Conditions ("Terms"). Please read them carefully.
+            Welcome to amritpalace.com (the "Site"), operated by Cardamom ("Company", "we", "our", or "us"). By accessing or using this Site, placing an order, or visiting our restaurant, you agree to these Terms and Conditions ("Terms"). Please read them carefully.
           </h1>
 
           {/* First Section */}
@@ -217,7 +217,7 @@ function Terms() {
               />
             </h1>
             <div className='ml-3 mt-6'>
-              <span>&bull; Gift cards are non-refundable and valid only for purchases at Amrit Palace.</span><br />
+              <span>&bull; Gift cards are non-refundable and valid only for purchases at Cardamom.</span><br />
               <span>&bull; Loyalty or promotional programs may be subject to additional terms.</span><br />
             </div>
           </div>
@@ -232,7 +232,7 @@ function Terms() {
               />
             </h1>
             <div className='ml-3 mt-6'>
-              <span>&bull; All content on the Site (text, images, logos, menus, designs) is the property of Amrit Palace.</span><br />
+              <span>&bull; All content on the Site (text, images, logos, menus, designs) is the property of Cardamom.</span><br />
               <span>&bull; You may not copy, distribute, or use any content without prior written permission.</span><br />
             </div>
           </div>

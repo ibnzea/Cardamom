@@ -72,7 +72,7 @@ function Privacy() {
         {/* RIGHT SIDE – unchanged, scrolls normally */}
         <div className='w-full'>
           <h1 className='font-playfair text-4xl '>
-            Amrit Palace (“Company”, “we”, “our”, or “us”) respects <br />
+            Cardamom (“Company”, “we”, “our”, or “us”) respects <br />
             your privacy and is committed to protecting your <br />
             personal data. This Privacy Policy explains how we <br />
             collect, use, store, and safeguard your information <br />

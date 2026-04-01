@@ -52,7 +52,7 @@ function Contact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="rounded-xl filter invert-[85%] hue-rotate-180 brightness-90 contrast-120"
-              title="Amrit Palace Nairobi Location"
+              title="Cardamom Nairobi Location"
             />
             
             {/* Custom Marker Overlay */}
@@ -61,7 +61,7 @@ function Contact() {
                 <div className="w-12 h-12 bg-[#E39A3B] rounded-full border-4 border-[#E9DDCC] shadow-lg"></div>
                 <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 whitespace-nowrap">
                   <span className="bg-[#2e2e2e]/90 text-[#E9DDCC] px-3 py-1 rounded-lg text-sm font-playfair border border-amber-100/30">
-                    Amrit Palace
+                    Cardamom
                   </span>
                 </div>
               </div>
