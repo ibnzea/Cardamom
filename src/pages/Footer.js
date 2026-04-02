@@ -122,12 +122,7 @@ function Footer() {
          <TypingAnimation text="Cardamom" speed={150} />
          </div>
 
-         <div className="flex justify-between p-3 text-[#E9DDCC]">
-            <p>&copy; 2025 Cardamom</p>
-            <p>All Rights Reserved</p>
-            <p>Made by <a className="underline" href="https://my-portfolio-two-nu-58.vercel.app/">Oliver Ekeno</a></p>
-         </div>
-
+        
     </section>
   )
 }
