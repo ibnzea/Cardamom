@@ -124,7 +124,7 @@ function About() {
             left: `calc(50% - ${containerSize.width / 2}px)`,
           }}
         >
-          <img alt="" className='w-full h-full object-cover' src='/images/services1.png' alt="Expanding view"/>
+          <img  className='w-full h-full object-cover' src='/images/services1.png' alt="Expanding view"/>
           <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-transparent'></div>
         </div>
       </div>
