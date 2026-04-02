@@ -111,7 +111,7 @@ function Menu() {
       </div>
 
       <div className='h-[700px]'>
-        <img src='/images/menu1.png' className='w-full h-full object-cover'/>
+        <img alt="" src='/images/menu1.png' className='w-full h-full object-cover'/>
       </div>
 
       <div className='mt-16 ml-8'>

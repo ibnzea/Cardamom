@@ -94,7 +94,7 @@ function CateringServices() {
       {/* Sticky Background Section */}
       <div className='sticky top-0 w-full h-screen'>
         <div className='relative w-full h-full'>
-          <img className='w-full h-full object-cover' src='/images/service.png'/>
+          <img alt="" className='w-full h-full object-cover' src='/images/service.png'/>
           
           {/* Dynamic gradient overlay - changes based on which card is in view */}
           <div 

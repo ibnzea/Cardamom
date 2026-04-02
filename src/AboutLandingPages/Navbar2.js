@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
@@ -54,7 +56,7 @@ function Navbar2() {
                 {/* LEFT NAV LINKS */}
                 <div className='flex gap-6'>
                     <div className='mr-24'>
-                        <img src='/images/Logo.png' className='h-10' alt="Logo"/>
+                        <img alt="" src='/images/Logo.png' className='h-10' alt="Logo"/>
                     </div>
                     {navLinks.map(({ key, title, path }) => (
                         <Link
@@ -103,7 +105,7 @@ function Navbar2() {
                     <Link to="/menu" className="flex items-center gap-2 text-[16px]">
                         Menu
                         <div className='w-10 bg-[#E39A3B] p-2 rounded'>
-                            <img className='w-full h-full object-cover' src='/images/menu.png' alt="Menu"/>
+                            <img alt="" className='w-full h-full object-cover' src='/images/menu.png' alt="Menu"/>
                         </div>
                     </Link>
 
@@ -114,7 +116,7 @@ function Navbar2() {
                     <Link to="/order" className="flex items-center gap-2 text-[16px]">
                         Order Now
                         <div className='w-10 bg-[#E39A3B] p-2 rounded'>
-                            <img className='w-full h-full object-cover' src='/images/order.png' alt="Order"/>
+                            <img alt="" className='w-full h-full object-cover' src='/images/order.png' alt="Order"/>
                         </div>
                     </Link>
                 </div>

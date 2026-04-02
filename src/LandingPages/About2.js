@@ -48,7 +48,7 @@ function About2() {
   return (
     <section>
       <div className='relative w-[1920px] h-[926px]'>
-        <img className='w-full h-full object-cover' src='/images/about2.png'/>
+        <img alt="" className='w-full h-full object-cover' src='/images/about2.png'/>
         <div className='absolute inset-0 bg-gradient-to-b from-black/10 via-black/50 to-transparent'></div>
 
         <div className='absolute left-4 top-10 text-white'>

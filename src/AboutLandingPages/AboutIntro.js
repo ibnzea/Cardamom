@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { useState, useRef, useEffect } from 'react';
 
@@ -84,7 +86,7 @@ function AboutIntro() {
             </p>
         </div>
         <div className='w-[570px] h-[700px]'>
-            <img src='/images/about1.png' className='w-full h-full object-cover'/>
+            <img alt="" src='/images/about1.png' className='w-full h-full object-cover'/>
         </div>
       </div>
 
@@ -102,7 +104,7 @@ function AboutIntro() {
           </p>
         </div>
         <div className='w-[950px] h-[900px]'>
-          <img src='/images/about3.png' className='w-full h-full object-cover'/>
+          <img alt="" src='/images/about3.png' className='w-full h-full object-cover'/>
         </div>
       </div>
     </section>

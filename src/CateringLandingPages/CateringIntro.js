@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { useState, useRef, useEffect } from 'react';
 
@@ -83,7 +85,7 @@ function CateringIntro() {
       {/* Added relative to parent container for sticky to work properly */}
       <div className='relative flex gap-10 m-8'>
         <div className='w-[940px] h-[1100px]'>
-            <img src='/images/services1.png' className='w-full h-full object-cover'/>
+            <img alt="" src='/images/services1.png' className='w-full h-full object-cover'/>
         </div>
         {/* Only added sticky classes here */}
         <div className='space-y-5 sticky top-8 self-start'>

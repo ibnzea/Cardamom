@@ -18,7 +18,7 @@ function Contact() {
             <p className='text-[#E9DDCC] text-4xl font-playfair'>management@amritpalace.com</p>
           </div>
           <div className='w-10 h-10 bg-[#E39A3B] p-2 rounded'>
-            <img className='w-full h-full object-cover' src='/images/email.png' alt="Email"/>
+            <img alt="" className='w-full h-full object-cover' src='/images/email.png' alt="Email"/>
           </div>
         </div>
         <div className='w-full flex justify-between items-center gap-[500px] p-6'>
@@ -27,7 +27,7 @@ function Contact() {
             <p className='text-[#E9DDCC] text-4xl font-playfair'>+1 (352) 873-8500</p>
           </div>
           <div className='w-10 h-10 bg-[#E39A3B] p-2 rounded mr-auto'>
-            <img className='w-full h-full object-cover' src='/images/phone.png' alt="Phone"/>
+            <img alt="" className='w-full h-full object-cover' src='/images/phone.png' alt="Phone"/>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ function Contact() {
               <button className="bg-[#E9DDCC] w-full h-full text-gray-800 rounded-md">
                 <a 
                   href="https://maps.google.com/?q=Nairobi+Serena+Hotel" 
-                  target="_blank" 
+                  target="_blank" rel="noreferrer" 
                   rel="noopener noreferrer"
                 >
                   Get Directions
@@ -142,7 +142,7 @@ function Contact() {
       </div>
 
       <div className='h-[850px]'>
-        <img src='/images/contact.png' className='w-full h-full object-cover'/>
+        <img alt="" src='/images/contact.png' className='w-full h-full object-cover'/>
       </div>
     </section>
   )

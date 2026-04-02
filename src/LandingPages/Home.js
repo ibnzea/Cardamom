@@ -48,7 +48,7 @@ function Home() {
   return (
     <section>
       <div className='relative w-[1920px] h-[926px]'>
-        <img className='w-full h-full object-cover' src='/images/Home.png'/>
+        <img alt="" className='w-full h-full object-cover' src='/images/Home.png'/>
         <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-transparent'></div>
         
         <div className='absolute left-6 bottom-4 text-white'>

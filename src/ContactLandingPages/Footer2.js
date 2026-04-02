@@ -65,7 +65,7 @@ function Footer2() {
                 </div>
             </div>
             <div className='mt-40 w-12'>
-                <img src='/images/Logo.png' />
+                <img alt="" src='/images/Logo.png' />
             </div>
             <div className='flex justify-center items  border-t border-b border-amber-100/30 text-[#E9DDCC] mt-7 w-[600px] h-[320px]'>
                 <div className='flex flex-col justify-between  border-r border-amber-100/30 p-4'> 

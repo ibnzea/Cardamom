@@ -66,7 +66,7 @@ function Footer() {
                 </div>
             </div>
             <div className='mt-40 w-12'>
-                <img src='/images/Logo.png' />
+                <img alt="" src='/images/Logo.png' />
             </div>
             <div className='flex justify-center items  border-t border-b border-amber-100/30 text-[#E9DDCC] mt-7 w-[600px] h-[320px]'>
                 <div className='flex flex-col justify-between  border-r border-amber-100/30 p-4'> 
@@ -112,8 +112,8 @@ function Footer() {
                 </div>
                 <div>
                     <h3 className='mb-9 duration-200 hover:hover:text-amber-400/70'>Socials</h3>
-                    <a href="https://www.instagram.com/" target="_blank" className='duration-200 hover:hover:text-amber-400/70 cursor-pointer'>Instagram</a><br />
-                    <a href="https://www.facebook.com/" target="_blank" className='duration-200 hover:hover:text-amber-400/70 cursor-pointer'>Facebook</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className='duration-200 hover:hover:text-amber-400/70 cursor-pointer'>Instagram</a><br />
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className='duration-200 hover:hover:text-amber-400/70 cursor-pointer'>Facebook</a>
                 </div>
             </div>
         </div>

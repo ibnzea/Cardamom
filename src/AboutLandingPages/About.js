@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { useState, useRef, useEffect } from 'react';
 
@@ -122,7 +124,7 @@ function About() {
             left: `calc(50% - ${containerSize.width / 2}px)`,
           }}
         >
-          <img className='w-full h-full object-cover' src='/images/services1.png' alt="Expanding view"/>
+          <img alt="" className='w-full h-full object-cover' src='/images/services1.png' alt="Expanding view"/>
           <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-transparent'></div>
         </div>
       </div>

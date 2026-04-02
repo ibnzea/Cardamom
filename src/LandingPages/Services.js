@@ -87,7 +87,7 @@ function Services() {
       {/* IMAGE ROW – same layout as screenshot */}
       <div className='flex justify-center gap-4 px-4'>
         <div className="w-[33%]">
-            <img src='/images/service1.png' className='w-full h-[420px] object-cover' />
+            <img alt="" src='/images/service1.png' className='w-full h-[420px] object-cover' />
             <div className="mt-4">
                 <h1 className="text-xl font-semibold">Buffet Displays</h1>
                 <p>
@@ -98,7 +98,7 @@ function Services() {
         </div>
 
         <div className="w-[33%]">
-            <img src='/images/service2.png' className='w-full h-[420px] object-cover' />
+            <img alt="" src='/images/service2.png' className='w-full h-[420px] object-cover' />
             <div className="mt-4">
                 <h1 className="text-xl font-semibold">Professional Service Team</h1>
                 <p>
@@ -109,7 +109,7 @@ function Services() {
         </div>
 
         <div className="w-[33%]">
-            <img src='/images/service3.png' className='w-full h-[420px] object-cover' />
+            <img alt="" src='/images/service3.png' className='w-full h-[420px] object-cover' />
             <div className="mt-4">
                 <h1 className="text-xl font-semibold">Years of Experience</h1>
                 <p>

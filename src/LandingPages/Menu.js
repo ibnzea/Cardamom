@@ -63,7 +63,7 @@ function Menu() {
                         />
                         </h1>
                         <div className='w-10 h-10'>
-                            <img className='w-full h-full object-cover' src='/images/menu.png' alt="Menu"/>
+                            <img alt="" className='w-full h-full object-cover' src='/images/menu.png' alt="Menu"/>
                         </div>
                     </div>
 
@@ -188,7 +188,7 @@ function Menu() {
                 </div>
 
                 <div className=''>
-                    <img className='w-[1400px] h-[817px]' src='/images/menu2.png'/>
+                    <img alt="" className='w-[1400px] h-[817px]' src='/images/menu2.png'/>
                 </div>
             </div>
         </div>

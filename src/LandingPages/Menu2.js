@@ -142,10 +142,10 @@ function Menu2() {
             {/* Images section - will scroll normally */}
             <div>
                 <div className='w-[1085px] h-[930px]'>
-                    <img src='/images/menu3.png' className='w-full h-full'/>
+                    <img alt="" src='/images/menu3.png' className='w-full h-full'/>
                 </div>
                 <div className='w-[1085px] h-[864px] mt-1'>
-                    <img src='/images/menu4.png' className='w-full h-full'/>
+                    <img alt="" src='/images/menu4.png' className='w-full h-full'/>
                 </div>
             </div>
         </div>

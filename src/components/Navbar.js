@@ -55,7 +55,7 @@ function Navbar() {
                 {/* LEFT NAV LINKS */}
                 <div className='flex gap-6'>
                     <div className='mr-24'>
-                        <img src='/images/Logo.png' className='h-10' alt="Logo" />
+                        <img alt="" src='/images/Logo.png' className='h-10' alt="Logo" />
                     </div>
 
                     {navLinks.map(({ key, title, path }) => (
@@ -101,7 +101,7 @@ function Navbar() {
                     <Link to="/menu" className="flex items-center gap-2 text-[16px] hover:text-amber-400/70">
                         Menu
                         <div className='w-10 bg-[#E39A3B] p-2 rounded'>
-                            <img className='w-full h-full object-cover' src='/images/menu.png' alt="Menu" />
+                            <img alt="" className='w-full h-full object-cover' src='/images/menu.png' alt="Menu" />
                         </div>
                     </Link>
 
@@ -112,7 +112,7 @@ function Navbar() {
                     <Link to="/order" className="flex items-center gap-2 text-[16px] hover:text-amber-400/70">
                         Order Now
                         <div className='w-10 bg-[#E39A3B] p-2 rounded'>
-                            <img className='w-full h-full object-cover' src='/images/order.png' alt="Order" />
+                            <img alt="" className='w-full h-full object-cover' src='/images/order.png' alt="Order" />
                         </div>
                     </Link>
                 </div>

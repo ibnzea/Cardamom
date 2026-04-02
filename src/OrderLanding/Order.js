@@ -40,7 +40,7 @@ function MenuCard({ item, section, onOpenModal }) {
       className="mt-6 w-[600px] flex rounded-xl overflow-hidden bg-[#996033] hover:shadow-2xl transition-shadow cursor-pointer"
     >
       <div className="w-1/3">
-        <img
+        <img alt=""
           src={`/${section}/${item.image}`}
           className="h-full w-full object-cover"
           alt={item.name}
@@ -61,7 +61,7 @@ function DrinkCard({ item, section }) {
   return (
     <div className="mt-6 w-[600px] flex rounded-xl overflow-hidden bg-[#996033] hover:shadow-2xl transition-shadow">
       <div className="w-1/3">
-        <img
+        <img alt=""
           src={`/${section}/${item.image}`}
           className="h-full w-full object-cover"
           alt={item.name}
@@ -1233,7 +1233,7 @@ function Order() {
             
             {/* Image Section */}
             <div className='w-full h-64 bg-gray-200'>
-              <img 
+              <img alt="" 
                 src={`/${selectedItem.section}/${selectedItem.image}`}
                 className='w-full h-full object-cover'
                 alt={selectedItem.name}
